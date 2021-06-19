@@ -1,0 +1,47 @@
+<!-- shows detail interview experience on clicking image of placement companies button -->
+
+<!-- <app-navbar></app-navbar> -->
+<div class="cname">
+
+   
+    
+    <h1 style="text-align: center;"><b>{{cname}} </b></h1>
+
+ 
+</div>
+ 
+
+<div class="box">
+ <ng-container *ngFor="let user of message">
+ 
+   <!-- <ng-container *ngIf="user.cname=='Wipro'"> -->
+ <div class="container1">
+
+   <!-- <h1 style="text-align: center;"><b>{{user.cname}} </b></h1> -->
+   <h1 style="text-align: center;"><b>{{user.name}} || {{user.email}}</b></h1>
+   <hr class="new5">
+   <h4 ><b>CTC : </b>{{user.ctc}}</h4>
+   <!-- <h4><b>Company name : </b>{{user.cname}}</h4>
+   <h4><b> Name : </b>{{user.name}}</h4>
+   <h4><b> Email : </b>{{user.email}}</h4> -->
+ 
+   <h4 *ngIf="user.stripend!=null"><b> Stipend per month and duration : </b>{{user.stripend}}</h4>
+   <h4 *ngIf="user.cgpa!=null"><b> CGPA Cut-off : </b>{{user.cgpa}}</h4>
+   <h4 *ngIf="user.loaction!=null"><b> Location : </b>{{user.location}}</h4>
+   <h4 *ngIf="user.role!=null"><b> Role(FT/Internship) :  </b>{{user.role}}</h4>
+   <h4 *ngIf="user.position!=null"><b>Position(IT/Coding, Sales, Analyst) : </b>{{user.position}}</h4>
+   <h4 *ngIf="user.test!=null"><b> Online/Written test details : </b></h4>
+     <p *ngIf="user.test!=null"> {{user.test}}</p>
+   <h4 *ngIf="user.groupact!=null"><b> Group Discussion/any other activity : </b>{{user.groupact}}</h4>
+   <h4 *ngIf="user.interview!=null"><b> Interview Details :</b></h4>
+   <p *ngIf="user.interview!=null"> {{user.interview}}</p>
+   <h4 *ngIf="user.suggestion!=null"><b> Suggestions/Tips : </b>{{user.suggestion}}</h4>
+   <h4 *ngIf="user.resources!=null"><b> Resources : </b>{{user.resources}}</h4>
+  
+ </div>
+<br>
+<!-- </ng-container>  -->
+
+
+</ng-container>
+</div>

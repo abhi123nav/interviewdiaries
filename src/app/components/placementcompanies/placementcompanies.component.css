@@ -1,0 +1,83 @@
+/* 
+ a:link { text-decoration: none; }
+
+ a:visited { text-decoration: none; }
+ 
+ a:hover { text-decoration: none; }
+ 
+ a:active { text-decoration: none; } */
+ .cname{
+    background-image: url(/assets/images/image11.jpg);  
+    
+      border-radius: 10px;
+    text-align: center;
+   color: darkblue;
+    margin-top: 65px;
+    height: 60px;
+    font-size: 65px;
+    padding-top: 30px;
+  
+  }
+  
+  .box{
+     
+      background-image: url(/assets/images/image3.jpg);  
+      border-radius: 10px;
+       margin-top:64px;
+       display: block;
+  }
+  .container1{
+      background-image: url(/assets/images/image16.jpg);
+      border-radius: 20px;
+      /* color:white; */
+      top: auto;
+      /* margin-top: 120px; */
+      margin-left: 150px;
+      margin-right: 150px;
+      /* margin:60px; */
+      padding: 15px;
+      /* width: 100%; */
+      
+     
+  }
+ 
+  .container1 button{
+
+    margin: 10px;
+   
+  }
+ 
+
+/* .example-card {
+  
+} */
+
+.example-header-image {
+  /* background-image: url('/assets/companylogo/tcsre.jpg'); */
+  background-size: cover;
+}
+.row{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.example-card{
+  margin-left: 10px;
+  background-size: cover;
+ border-radius: 20px;
+ text-align: center;
+ max-width: 200px;
+color: white;
+}
+.example-card img{
+height: 120px;
+width: 220px;
+}
+.byrole{
+  background-color:white;
+  margin-left:  30px; 
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  
+}

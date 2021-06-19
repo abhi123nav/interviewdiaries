@@ -1,0 +1,41 @@
+
+.cname{
+    border-radius: 10px;
+    text-align: center;
+   /* color: darkblue; */
+    margin-top: 65px;
+    height: 70px;
+    /* font-size: 65px; */
+    padding-top: 25px;
+  background-color:cornsilk;
+    
+    }
+    .cname h1{
+      font-size: 50px;
+      }
+    .box{
+      /* margin-top: 53px; */
+      /* padding-top: 15px; */
+        background-image: url(/assets/images/image3.jpg);  
+        border-radius: 10px;
+        min-height: 100%;
+        /* margin-top: 60px; */
+    }
+    .container1{
+        background-image: url(/assets/images/image16.jpg);
+        border-radius: 20px;
+        color:black;
+        /* top: auto; */
+      
+        margin-left: 150px;
+        margin-right: 150px;
+       
+        /* margin:60px; */
+        padding: 15px;
+        /* width: 100%; */
+        min-height:100%
+        
+    }
+    
+    
+    

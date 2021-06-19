@@ -3,16 +3,42 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { AboutComponent } from './components/about/about.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { GateComponent } from './components/gate/gate.component';
+import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { PlacementcompaniesComponent } from './components/placementcompanies/placementcompanies.component';
+import { PlacementsComponent } from './components/placements/placements.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material/toolbar'; 
+import {MatIconModule} from '@angular/material/icon'; 
+import {MatCardModule} from '@angular/material/card';
+import { FetchService } from './service/fetch.service';
+import { HttpClientModule } from '@angular/common/http';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    FooterComponent,
+    GateComponent,
+    HomeComponent,
+    NavbarComponent,
+    PlacementcompaniesComponent,
+    PlacementsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
+    HttpClientModule,
+    MatButtonModule,
+    MatCardModule
   ],
-  providers: [],
+  providers: [FetchService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

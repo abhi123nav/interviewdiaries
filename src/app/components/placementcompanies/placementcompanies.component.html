@@ -1,0 +1,316 @@
+
+<!--function is to shows all company icon -->
+<div class="box">
+    <!-- <ng-container *ngFor="let user of users"> -->
+    <div class="container1">
+      <!-- <h1 style="text-align: center;"><b>{{user.name}} || {{user.email}}</b></h1> -->
+      <!-- <tr *ngFor="let user of users"> -->
+        <!-- <div class="example-button-row ">
+   <button mat-raised-button color="warm"> <a routerLink="/tcsinnovator" routerLinkActive="active"><b> TCS Innovator</b></a></button>
+   <button mat-raised-button color="accent"> <a routerLink="/tcsinnovator" routerLinkActive="active"><b> Goldman Sachs</b></a></button>
+   <button mat-raised-button color="primary"> <a routerLink="/tcsinnovator" routerLinkActive="active"><b> EXXON MOBIL </b></a></button>
+    <button mat-raised-button color="primary"> <a routerLink="/tcsinnovator" routerLinkActive="active"><b> ZS Associates</b></a></button>
+      <button mat-raised-button color="primary"><a routerLink="/tcsinnovator" routerLinkActive="active"><b> L&T</b></a></button>
+      </div>
+        <a routerLink="/About" routerLinkActive="active">About</a> -->
+       
+   
+        <!-- <div class="example-button-row">
+     
+          <button mat-raised-button color="primary"> <a routerLink="/tcsinnovator" routerLinkActive="active"><b> ZS Associates</b></a></button>
+          <button mat-raised-button color="primary"><a routerLink="/tcsinnovator" routerLinkActive="active"><b> L&T</b></a></button>
+        </div> --> 
+
+        <div class="row"style="display: flex;">
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/accenture.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <!-- <button mat-raised-button color="accent"> <a style="text-decoration:none; color:inherit;" routerLink="/Placementscompanies/accenture" (click)='getbycname("accenture")' >Read more...</a></button>
+              -->
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','Accenture']" >Read more...</a></button>
+            </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/adp.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <!-- <button mat-raised-button color="accent">Read more...</button> -->
+            
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','adp']" >Read more...</a></button>
+               
+            </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/bridgei2i.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','bridgei2i']" >Read more...</a></button>
+             
+             
+            </mat-card-actions>
+          </mat-card>
+         
+          
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/byju.jpg"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','byju']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+         
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/deloitte.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','deloitte']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+
+        </div>
+
+<!-- 2nd row -->
+
+        <div class="row"style="display: flex;">
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/exxonmobil.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','exxonmobil']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/gs.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','gs']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/infosys.jpg"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','infosys']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+         
+          
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/intellipaat.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','intellipaat']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+         
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/iqvia.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','iqvia']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+
+        </div>
+
+        <!-- 3rd row -->
+
+        <div class="row"style="display: flex;">
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/itdcementation.jpg"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','itdcementation']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/l&t.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','l&t']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/mbblabs.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','mbblabs']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+         
+          
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/scaleracademy.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','scaleracademy']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+         
+
+          <mat-card class="example-card" >
+            <img mat-card-image src="/assets/companylogo/tataproject.png"  alt="Photo of a Shiba Inu">
+           
+            <mat-card-actions class="cardbutton">
+              <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','Tata Projects limited']" >Read more...</a></button>
+             
+            </mat-card-actions>
+          </mat-card>
+
+        </div>
+
+        <!-- end of 3rd row -->
+
+<!-- 4th row -->
+<div class="row"style="display: flex;">
+  <mat-card class="example-card" >
+    <img mat-card-image src="/assets/companylogo/tcs.jpg"  alt="Photo of a Shiba Inu">
+   
+    <mat-card-actions class="cardbutton">
+      <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','tcs']" >Read more...</a></button>
+     
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card class="example-card" >
+    <img mat-card-image src="/assets/companylogo/tcsre.jpg"  alt="Photo of a Shiba Inu">
+   
+    <mat-card-actions class="cardbutton">
+      <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','tcs innovator']" >Read more...</a></button>
+      <!-- <button mat-raised-button color="accent"> <a style="text-decoration:none; color:inherit;" routerLink="/tcsinnovator" routerLinkActive="active">Read more...</a></button> -->
+     
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card class="example-card" >
+    <img mat-card-image src="/assets/companylogo/wipro.png"  alt="Photo of a Shiba Inu">
+   
+    <mat-card-actions class="cardbutton">
+    
+      <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','wipro']" >Read more...</a></button>
+               
+    </mat-card-actions>
+  
+    <!-- <a style="text-decoration:none; color:red;" [routerLink]="['/Placementscompanies','wipro']" >Read more...</a> -->
+    <!-- <a (click)='getbycname("Wipro")' style="text-decoration:none; color:red;" [routerLink]="['/Placementscompanies','wipro']" >Read more...</a> -->
+    <!-- <a  style="text-decoration:none; color:red;"   [routerLink]="['/Placementscompanies','wipro']">Read more...</a> -->
+  </mat-card>
+ 
+  
+
+  <mat-card class="example-card" >
+    <img mat-card-image src="/assets/companylogo/wsp.png"  alt="Photo of a Shiba Inu">
+   
+    <mat-card-actions class="cardbutton">
+      <button mat-raised-button color="accent" > <a style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','wps']" >Read more...</a></button>
+     
+    </mat-card-actions>
+  </mat-card>
+ 
+</div>
+<!-- end of 4th row -->
+
+      <!-- 5th row -->
+      
+      <div class="byrole">
+<h2 style="text-align: center;"><b>Read by Company Type and Role</b></h2>
+<hr>
+        <section>
+          <div class="example-label"><b>1. Core</b></div>
+          <div class="example-button-row">
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >EXXON MOBIL</a></button>
+            <!-- <button mat-raised-button color="primary"> <a href="https://www.google.com/" ></a>EXXON MOBIL</button> -->
+         
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','ITD Cementation']" >ITD Cementation</a></button>
+          
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','L & T']" >L & T</a></button>
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;"  [routerLink]="['/Placementscompanies','tata projects limited']" >Tata Project</a></button>
+            <!-- <button mat-raised-button color="primary"> <a href="https://www.google.com/" ></a>Tata Project</button> -->
+           
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >WSP</a></button>
+            <!-- <button mat-raised-button disabled>Disabled</button>
+            <a mat-raised-button href="https://www.google.com/" target="_blank">Link</a> -->
+          </div>
+        </section>
+
+        <section>
+          <dt><b>2. Non-Core</b></dt>
+          <dd><b> i) Analyst</b></dd>
+          <dd> 
+          <div class="example-button-row">
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >Deloitte</a></button>
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >Goldman Sachs</a></button>
+            <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >IQVIA</a></button>
+           
+           
+          </div>
+        </dd>
+
+        <dd><b> ii) Coding/IT</b></dd>
+        <dd> 
+        <div class="example-button-row">
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >Accenture</a></button>
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >ADP</a></button>
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >BRIDGEi2i</a></button>
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >Infosys</a></button>
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >IQVIA</a></button>
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >MayBank</a></button>
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >TCS</a></button>
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','TCS Innovator']" >TCS Innovation</a></button>
+        
+        </div>
+      </dd>
+        <dd><b>iii) Teaching</b></dd>
+        <dd> 
+        <div class="example-button-row">
+          <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >BYJU'S</a></button>
+        
+        </div>
+      </dd>
+      
+    <dd><b>vi) Sales</b></dd>
+    <dd> 
+    <div class="example-button-row">
+      <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >Intellipaat</a></button>
+      <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >Scaler Academy</a></button>
+      
+      
+    </div>
+  </dd>
+        </section>
+
+      
+
+     
+     
+    </div>
+      <!-- end of 5th row -->
+    </div>
+    
+ <!-- </ng-container> -->
+    
+  
+  </div>        

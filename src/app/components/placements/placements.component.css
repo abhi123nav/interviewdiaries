@@ -1,0 +1,61 @@
+
+.cname{
+    /* background-image: url(/assets/images/image11.jpg);   */
+    /* background-image: url(/assets/companylogo/tcsre.jpg);   */
+      border-radius: 10px;
+    text-align: center;
+   /* color: darkblue; */
+    margin-top: 65px;
+    height: 70px;
+    /* font-size: 65px; */
+    padding-top: 25px;
+  background-color:cornsilk;
+  }
+  .cname h1{
+  font-size: 50px;
+  }
+  hr.new5 {
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+  
+  .example-card{
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+   border-radius: 20px;
+   text-align: center;
+   max-width: 200px;
+  color: white;
+  
+  }
+  /* .example-card img{
+  height: 80px;
+  width: 220px;
+  } */
+  
+  .box{
+    /* margin-top: 53px; */
+    /* padding-top: 15px; */
+      background-image: url(/assets/images/image3.jpg);  
+      border-radius: 10px;
+      min-height: 100%;
+  }
+  .container1{
+      background-image: url(/assets/images/image16.jpg);
+      border-radius: 20px;
+      color:black;
+      /* top: auto; */
+    
+      margin-left: 150px;
+      margin-right: 150px;
+     
+      /* margin:60px; */
+      padding: 15px;
+      /* width: 100%; */
+      /* height: auto; */
+      
+  }
+  
+  
+  
