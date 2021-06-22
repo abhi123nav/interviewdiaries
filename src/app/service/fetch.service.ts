@@ -11,7 +11,7 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class FetchService {
   //baseUrl='http://localhost:8082/cnames';
-  baseUrl=environment.apiBaseURL;
+  baseUrl='https://nitccivildiaries.herokuapp.com/';
   constructor(private http:HttpClient) { }
   public getData(){
     //return this.http.get("http://localhost:8082/cnames");
