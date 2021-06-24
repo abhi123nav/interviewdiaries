@@ -24,4 +24,9 @@ export class FetchService {
    //this was working// return this.http.get<User>('http://localhost:8082/cnames/'+name);
     return this.http.get<User>(this.baseUrl+'cnames/'+name);
   }
+  
+  public senddata(data:any)
+  { 
+return this.http.post(this.baseUrl+'cnames/',data);
+  }
 }

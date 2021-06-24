@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  // apiBaseURL:'https://nitccivildiaries.herokuapp.com/'
+  apiBaseURL:'https://nitccivildiaries.herokuapp.com/'
 };

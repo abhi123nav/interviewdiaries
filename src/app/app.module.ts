@@ -17,6 +17,11 @@ import {MatCardModule} from '@angular/material/card';
 import { FetchService } from './service/fetch.service';
 import { HttpClientModule } from '@angular/common/http';
 import {MatButtonModule} from '@angular/material/button';
+import { LoginComponent } from './components/login/login.component';
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatInputModule} from '@angular/material/input';
+import { InsertdataComponent } from './components/insertdata/insertdata.component'; 
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +31,9 @@ import {MatButtonModule} from '@angular/material/button';
     HomeComponent,
     NavbarComponent,
     PlacementcompaniesComponent,
-    PlacementsComponent
+    PlacementsComponent,
+    LoginComponent,
+    InsertdataComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +43,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatIconModule,
     HttpClientModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule
   ],
   providers: [FetchService],
   bootstrap: [AppComponent]

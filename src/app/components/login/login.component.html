@@ -1,0 +1,24 @@
+
+
+<!-- <app-navbar></app-navbar> -->
+<div class="container">
+    <div class="card">
+        <form (ngSubmit)="doSubmitForm()">
+        <h1>Login</h1>
+    <mat-form-field class="field" appearance="outline">
+        <mat-label>Username</mat-label>
+        <input matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput>
+      </mat-form-field>
+<div class="text-center">
+    <button type="submit" mat-raised-button color="primary">Submit</button>
+    <button mat-raised-button color="primary" > <a  style="text-decoration:none; color:inherit;" [routerLink]="['/Placementscompanies','exxon mobil']" >Submit</a></button>
+</div>
+</form>
+</div>
+
+</div>

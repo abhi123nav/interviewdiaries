@@ -1,0 +1,96 @@
+
+
+<!-- <app-navbar></app-navbar> -->
+<div class="container">
+    <div class="card">
+        <form (ngSubmit)="doSubmitForm()">
+        <h1>Details</h1>
+
+    <mat-form-field class="field" appearance="outline">
+        <mat-label>Id</mat-label>
+        <input name="id" [(ngModel)]="data.id" matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Company Name</mat-label>
+        <input  name="cname" [(ngModel)]="data.cname"  matInput>
+      </mat-form-field>
+
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>CTC</mat-label>
+        <input  name="ctc" [(ngModel)]="data.ctc"  matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Email</mat-label>
+        <input  name="email" [(ngModel)]="data.email"  matInput>
+      </mat-form-field>
+
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Your Name</mat-label>
+        <input  name="name" [(ngModel)]="data.name"  matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Stripend</mat-label>
+        <input matInput>
+      </mat-form-field>
+
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>CGPA cut off</mat-label>
+        <input  name="cgpa" [(ngModel)]="data.cgpa"  matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Location</mat-label>
+        <input  name="location" [(ngModel)]="data.location"  matInput>
+      </mat-form-field>
+
+
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Role</mat-label>
+        <input  name="role" [(ngModel)]="data.role"  matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Position</mat-label>
+        <input  name="position" [(ngModel)]="data.position"  matInput>
+      </mat-form-field> 
+
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Test</mat-label>
+        <input  name="test" [(ngModel)]="data.test"  matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Group Activity</mat-label>
+        <input  name="groupact" [(ngModel)]="data.groupact"  matInput>
+      </mat-form-field>
+
+      
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Suggestion</mat-label>
+        <input  name="suggestion" [(ngModel)]="data.suggestion"  matInput>
+      </mat-form-field>
+
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Resources</mat-label>
+        <input  name="resources" [(ngModel)]="data.resources"  matInput>
+      </mat-form-field>
+    
+      <mat-form-field class="example-full-width field" appearance="outline">
+        <mat-label>Interview Experience</mat-label>
+        <textarea  name="interview" [(ngModel)]="data.interview"  rows="20" matInput placeholder="Ex. Rounde 1 : Online test"></textarea>
+      </mat-form-field>
+
+
+<div class="text-center">
+    <button type="submit" mat-raised-button color="primary">Submit</button>
+   
+</div>
+</form>
+<!-- {{data | json}} -->
+</div>
+
+</div>

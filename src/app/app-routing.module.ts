@@ -4,6 +4,8 @@ import { AboutComponent } from './components/about/about.component';
 
 import { GateComponent } from './components/gate/gate.component';
 import { HomeComponent } from './components/home/home.component';
+import { InsertdataComponent } from './components/insertdata/insertdata.component';
+import { LoginComponent } from './components/login/login.component';
 
 import { PlacementcompaniesComponent } from './components/placementcompanies/placementcompanies.component';
 import { PlacementsComponent } from './components/placements/placements.component';
@@ -38,6 +40,17 @@ const routes: Routes = [
   pathMatch:"full"
 },
 
+{
+  path:"Login",
+  component:LoginComponent,
+  pathMatch:"full"
+},
+
+{
+  path:"Insertdata",
+  component:InsertdataComponent,
+  pathMatch:"full"
+},
 
 {
   path:'Placementscompanies/:cname',
