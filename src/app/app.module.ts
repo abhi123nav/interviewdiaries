@@ -22,6 +22,10 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { InsertdataComponent } from './components/insertdata/insertdata.component'; 
 import { FormsModule } from '@angular/forms';
+import {MatDividerModule} from '@angular/material/divider';
+import {FlexLayoutModule} from "@angular/flex-layout";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +50,10 @@ import { FormsModule } from '@angular/forms';
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatDividerModule,
+    FlexLayoutModule
+   
   ],
   providers: [FetchService],
   bootstrap: [AppComponent]
