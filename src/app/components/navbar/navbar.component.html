@@ -1,6 +1,23 @@
 
 
-<mat-toolbar  class="navbar">
+
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" (click)="toggleNavbar()"  data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse topnav" id="navbarTogglerDemo01" [ngClass]="{'show' :navbarOpen}">
+    <a class="navbar-brand" href="/Home">Home</a>
+    <a class="navbar-brand" href="/Placementscompanies">Placements_Diaries</a>
+    <a class="navbar-brand" href="/Gate">Gate_Diaries</a>
+    <a class="navbar-brand" href="/Foreign">Foreign_Diaries</a>
+    <a class="navbar-brand" href="/About">About</a>
+    <a class="navbar-brand" href="/Login">Login</a>
+    <a class="navbar-brand" href="/Insertdata">Insertdata</a>
+   
+  </div>
+</nav>
+
+<!-- <mat-toolbar  class="navbar">
 
   
     <div class="topnav">
@@ -14,5 +31,5 @@
       <a routerLink="/Insertdata" routerLinkActive="active">Insertdata</a>
       
     </div>
-    </mat-toolbar>
+    </mat-toolbar> -->
     
