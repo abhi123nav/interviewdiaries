@@ -13,18 +13,10 @@
 
 <div class="box">
  <ng-container *ngFor="let user of message">
- 
-   <!-- <ng-container *ngIf="user.cname=='Wipro'"> -->
  <div class="container1">
-
-   <!-- <h1 style="text-align: center;"><b>{{user.cname}} </b></h1> -->
    <h1 style="text-align: center;"><b>{{user.name}} || {{user.email}}</b></h1>
    <hr class="new5">
-   <h4 ><b>CTC : </b>{{user.ctc}}</h4>
-   <!-- <h4><b>Company name : </b>{{user.cname}}</h4>
-   <h4><b> Name : </b>{{user.name}}</h4>
-   <h4><b> Email : </b>{{user.email}}</h4> -->
- 
+   <h4 *ngIf="user.ctc!=null" ><b>CTC : </b>{{user.ctc}}</h4>
    <h4 *ngIf="user.stripend!=null"><b> Stipend per month and duration : </b>{{user.stripend}}</h4>
    <h4 *ngIf="user.cgpa!=null"><b> CGPA Cut-off : </b>{{user.cgpa}}</h4>
    <h4 *ngIf="user.loaction!=null"><b> Location : </b>{{user.location}}</h4>
