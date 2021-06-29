@@ -34,15 +34,14 @@
       background-image: url(/assets/images/image16.jpg);
       border-radius: 20px;
       color:black;
+      text-align: center;
       /* top: auto; */
-    text-align: center;
-      margin-left: 150px;
-      margin-right: 150px;
      width: 80%;
       /* margin:60px; */
       padding: 15px;
       /* width: 100%; */
       /* height: auto; */
+      margin: auto;
       
   }
   
