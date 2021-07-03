@@ -11,9 +11,18 @@
         <input name="id" [(ngModel)]="data.id" matInput>
       </mat-form-field> -->
     
-      <mat-form-field class="field" appearance="outline">
+      <!-- <mat-form-field class="field" appearance="outline">
         <mat-label>Company Name</mat-label>
         <input  name="cname" [(ngModel)]="data.cname"  matInput>
+      </mat-form-field> -->
+
+    
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>Company Name</mat-label>
+        <mat-select>
+          <mat-option>None</mat-option>
+          <mat-option *ngFor="let state of states" [value]="state">{{state}}</mat-option>
+        </mat-select>
       </mat-form-field>
 
       <mat-form-field class="field" appearance="outline">
@@ -81,7 +90,7 @@
     
       <mat-form-field class="example-full-width field" appearance="outline">
         <mat-label>Interview Experience</mat-label>
-        <textarea  name="interview" [(ngModel)]="data.interview"  rows="20" matInput placeholder="Ex. Rounde 1 : Online test"></textarea>
+        <input  name="interview" [(ngModel)]="data.interview"   matInput placeholder="Give Google drive Link after changing it to 'Anyone with Link')"matInput>
       </mat-form-field>
 
 

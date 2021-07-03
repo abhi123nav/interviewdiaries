@@ -2,9 +2,9 @@
     width: 100%;
 }
 .card{
-    width:80%;
+    width:90%;
     margin: auto;
-    background:rosybrown;
+    background:lightgray;
     padding: 20px;
     border-radius: 20px;
 }

@@ -8,6 +8,15 @@ import { User } from 'src/app/user';
   styleUrls: ['./insertdata.component.css']
 })
 export class InsertdataComponent implements OnInit {
+
+  states: string[] = [
+    'Accenture', 'ADP', 'Bridgei2i', 'Byjus', 'Deloitte', 'ExxonMobil', 'Goldman-Sachs', 'Infosys',
+    'Intellipaat', 'IQVIA', 'ITD-Cementation', 'LandT', 'Maybank', 'Scaler', 'Tata-Project', 'TCS', 'TCS-Innovators',
+    'Wipro', 'WSP'
+  ];
+
+
+
 data={
   id:"",
   cname:"",

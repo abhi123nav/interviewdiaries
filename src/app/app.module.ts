@@ -24,7 +24,7 @@ import { InsertdataComponent } from './components/insertdata/insertdata.componen
 import { FormsModule } from '@angular/forms';
 import {MatDividerModule} from '@angular/material/divider';
 import {FlexLayoutModule} from "@angular/flex-layout";
-
+import {MatSelectModule} from '@angular/material/select'; 
 
 @NgModule({
   declarations: [
@@ -52,7 +52,8 @@ import {FlexLayoutModule} from "@angular/flex-layout";
     MatInputModule,
     FormsModule,
     MatDividerModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatSelectModule
    
   ],
   providers: [FetchService],
