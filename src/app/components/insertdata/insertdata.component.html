@@ -21,8 +21,9 @@
         <mat-label>Company Name</mat-label>
         <mat-select>
           <mat-option>None</mat-option>
-          <mat-option *ngFor="let state of states" [value]="state">{{state}}</mat-option>
+          <mat-option name="cname" [(ngModel)]="data.cname" *ngFor="let state of states" [value]="state">{{state}}</mat-option>
         </mat-select>
+
       </mat-form-field>
 
       <mat-form-field class="field" appearance="outline">
