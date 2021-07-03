@@ -26,7 +26,8 @@
      <p *ngIf="user.test!=null"> {{user.test}}</p>
    <h4 *ngIf="user.groupact!=null"><b> Group Discussion/any other activity : </b>{{user.groupact}}</h4>
    <h4 *ngIf="user.interview!=null"><b> Interview Details :</b></h4>
-   <p *ngIf="user.interview!=null"> {{user.interview}}</p>
+   <!-- <p *ngIf="user.interview!=null"> <a>{{user.interview}}</a></p> -->
+   <a  href="/{{user.interview}}">{{user.interview}}</a>
    <h4 *ngIf="user.suggestion!=null"><b> Suggestions/Tips : </b>{{user.suggestion}}</h4>
    <h4 *ngIf="user.resources!=null"><b> Resources : </b>{{user.resources}}</h4>
   
