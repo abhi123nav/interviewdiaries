@@ -10,8 +10,8 @@ import { User } from 'src/app/user';
 export class InsertdataComponent implements OnInit {
 
   states: string[] = [
-    'Accenture', 'ADP', 'Bridgei2i', 'Byjus', 'Deloitte', 'ExxonMobil', 'Goldman_Sachs', 'Infosys',
-    'Intellipaat', 'IQVIA', 'ITD_Cementation', 'LandT', 'Maybank', 'Scaler_Academy', 'Tata_Project', 'TCS', 'TCS_Innovators',
+    'Accenture', 'ADP', 'Bridgei2i', 'Byjus', 'Deloitte', 'ExxonMobil', 'GoldmanSachs', 'Infosys',
+    'Intellipaat', 'IQVIA', 'ItdCementation', 'LandT', 'Maybank', 'ScalerAcademy', 'TataProject', 'TCS', 'TcsInnovators',
     'Wipro', 'WSP'
   ];
 
