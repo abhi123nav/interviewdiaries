@@ -14,8 +14,8 @@ export class InsertdataComponent implements OnInit {
     'Intellipaat', 'IQVIA', 'Itdcementation', 'Landt', 'Maybank', 'Scaleracademy', 'Tataproject', 'TCS', 'Tcsinnovators',
     'Wipro', 'WSP'
   ];
-
-
+roles:string[]=['Full-Time','Internship'];
+positions:string[]=['Analyst','Core','IT/Coding','Sales','Teaching'];
 
 data={
   id:"",

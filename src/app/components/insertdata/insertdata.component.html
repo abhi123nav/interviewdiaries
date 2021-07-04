@@ -41,15 +41,7 @@
         <input  name="name" [(ngModel)]="data.name"  matInput>
       </mat-form-field>
     
-      <mat-form-field class="field" appearance="outline">
-        <mat-label>Stripend</mat-label>
-        <input matInput>
-      </mat-form-field>
-
-      <mat-form-field class="field" appearance="outline">
-        <mat-label>CGPA cut off</mat-label>
-        <input  name="cgpa" [(ngModel)]="data.cgpa"  matInput>
-      </mat-form-field>
+    
     
       <mat-form-field class="field" appearance="outline">
         <mat-label>Location</mat-label>
@@ -58,15 +50,32 @@
 
 
       <mat-form-field class="field" appearance="outline">
-        <mat-label>Role</mat-label>
-        <input  name="role" [(ngModel)]="data.role"  matInput>
+        <mat-label>Job Type</mat-label>
+       
+          <mat-select  name="role" [(ngModel)]="data.role">
+         
+          <mat-option  *ngFor="let role of roles" [value]="role">{{role}}</mat-option>
+          </mat-select>
       </mat-form-field>
     
       <mat-form-field class="field" appearance="outline">
-        <mat-label>Position</mat-label>
-        <input  name="position" [(ngModel)]="data.position"  matInput>
+        <mat-label>Role</mat-label>
+       
+        <mat-select  name="position" [(ngModel)]="data.position">
+         
+          <mat-option  *ngFor="let position of positions" [value]="position">{{position}}</mat-option>
+          </mat-select>
       </mat-form-field> 
 
+  <mat-form-field class="field" appearance="outline">
+        <mat-label>Stripend</mat-label>
+        <input name="stripend"  [(ngModel)]="data.stripend"  placeholder="N.A (if not applicable)'"matInput>
+      </mat-form-field>
+
+      <mat-form-field class="field" appearance="outline">
+        <mat-label>CGPA cut off</mat-label>
+        <input  name="cgpa" [(ngModel)]="data.cgpa"  matInput>
+      </mat-form-field>
       <mat-form-field class="field" appearance="outline">
         <mat-label>Test</mat-label>
         <input  name="test" [(ngModel)]="data.test"  matInput>
@@ -91,7 +100,7 @@
     
       <mat-form-field class="example-full-width field" appearance="outline">
         <mat-label>Interview Experience</mat-label>
-        <input  name="interview" [(ngModel)]="data.interview"   matInput placeholder="Give Google drive Link after changing it to 'Anyone with Link')"matInput>
+        <input  name="interview" [(ngModel)]="data.interview"   matInput placeholder="Give Google drive Link after changing it to 'Anyone with Link'"matInput>
       </mat-form-field>
 
 
