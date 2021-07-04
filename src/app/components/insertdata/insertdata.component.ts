@@ -11,7 +11,7 @@ export class InsertdataComponent implements OnInit {
 
   states: string[] = [
     'Accenture', 'ADP', 'Bridgei2i', 'Byjus', 'Deloitte', 'Exxonmobil', 'Goldmansachs', 'Infosys',
-    'Intellipaat', 'IQVIA', 'Itdcementation', 'Landt', 'Maybank', 'Scaleracademy', 'Tataproject', 'TCS', 'TcsInnovators',
+    'Intellipaat', 'IQVIA', 'Itdcementation', 'Landt', 'Maybank', 'Scaleracademy', 'Tataproject', 'TCS', 'Tcsinnovators',
     'Wipro', 'WSP'
   ];
 
